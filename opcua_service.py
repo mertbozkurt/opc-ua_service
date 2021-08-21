@@ -4,7 +4,7 @@ from opcua import Server
 
 
 server = Server()
-server.set_endpoint("opc.tcp://127.0.0.1:12345")
+server.set_endpoint("opc.tcp://172.31.57.176:12345")
 server.register_namespace("productionLine1")
 
 objects = server.get_objects_node()
